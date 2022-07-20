@@ -13,7 +13,7 @@ const App = () =>{
   },[])
   return(
     <div>
-     {/* {data.map(yellaiah =><li>{yellaiah.title}</li>)} */}
+     {data.map(yellaiah =><li>{yellaiah.title}</li>)}
     </div>
   )
 }
